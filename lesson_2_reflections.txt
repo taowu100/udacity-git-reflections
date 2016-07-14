@@ -6,8 +6,15 @@ By doing so, changes of files in this repository can be tracked.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+The staging area is an intermediate area between working directory and the repository.
+Files in the staging area will go into the next commit.
+Users can have control on files with it.
+They can decide which file to be committed.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+d
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
