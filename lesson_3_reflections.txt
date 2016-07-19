@@ -9,24 +9,34 @@ automatically stay up-to-date with your remote repository?
 
 Sometimes, it is not necessary to stay up-to-date. Sometimes,
 there may be some conflicts between local files and files
-in my remote repository.
+in my remote repository. Local files may lose if pulling changes
+automatically.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+Froks: copy files from others' GitHub-host repositories to my
+GitHub-host repositories directly. Changes I make won't have
+an affect on others' files.
+Clones: copy files to my local repositories. I will also make changes
+on these repositories and push my changes directly.
+Branches: try some code that is not official yet.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+Can work with it even without Internet access.
+It may help to reduce conflicts in the future.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+Other ways to exchange files will be used.
+I will have to compare files to see differences by manually typing commands.
+I will also have to build a name rule for my files.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+Collabrate with others so that every single person can work without
+affecting others'.
